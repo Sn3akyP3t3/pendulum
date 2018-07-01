@@ -1,7 +1,7 @@
 import sys
 
 PY2 = sys.version_info < (3, 0)
-PY36 = sys.version_info >= (3, 6)
+PY36 = sys.version_info >= (3, 7)
 PYPY = hasattr(sys, 'pypy_version_info')
 
 _HAS_FOLD = PY36
